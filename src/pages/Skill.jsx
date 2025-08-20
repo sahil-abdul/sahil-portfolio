@@ -14,7 +14,7 @@ function Skill() {
           </h1>
           <div className="w-1/2 bg-[#9f3877] h-2 mt-4 rounded"></div>
         </div>
-        <div className="flex w-full justify-around gap-10 flex-col md:flex-row flex-wrap">
+        <div className="flex w-full justify-around gap-10 flex-col md:flex-row">
 
         <SkillBox skills = {fullStack} head= {"Full Stack Development"} ><WebhookIcon/> </SkillBox>
         <SkillBox skills = {program} head= {"Programming Skills"}><PsychologyIcon/> </SkillBox>
@@ -24,5 +24,6 @@ function Skill() {
   );
 }
 export default Skill;
+
 
 
