@@ -7,7 +7,7 @@ function Skill() {
   const program = ["Java","C++","C","Sql","Mongodb","JavaScript"]
   return (
     <>
-      <div id="skill" className="h-full w-full flex flex-col justify-evenly items-center flex-wrap bg-[#1d1d1f] mt-10 mb-10">
+      <div id="skill" className="h-full w-full flex flex-col justify-evenly items-center flex-wrap bg-[#1d1d1f] mt-10 mb-10 overflow-x-hidden">
         <div className="flex flex-col justify-between items-center " data-aos="zoom-out-down">
           <h1 className="text-4xl md:text-5xl font-bold tracking-wider">
             My Skills
@@ -24,3 +24,4 @@ function Skill() {
   );
 }
 export default Skill;
+
