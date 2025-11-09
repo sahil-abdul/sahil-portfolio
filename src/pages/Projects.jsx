@@ -1,6 +1,6 @@
 import Button from "../components/Button";
 import Project from "../components/Project";
-import { NovaPath,WanderMate,PenCraft } from "../components/ProjectInfo";
+import { NovaPath,WanderMate,PenCraft,SayMore } from "../components/ProjectInfo";
 
 function Projects({fun}) {
  
@@ -17,9 +17,9 @@ function Projects({fun}) {
           <div className="w-1/2 bg-[#9f3877] h-2 mt-4 rounded "></div>
         </div>
         <div className="flex w-full justify-start ml-1.5 md:justify-around gap-10 overflow-x-auto scrollbar-hide">
-          <Project data={NovaPath} />
-          <Project data={WanderMate}/>
-          <Project data={PenCraft} />
+          <Project data={SayMore} />
+          <Project data={NovaPath}/>
+          <Project data={WanderMate} />
         </div>
         <Button fun = {fun}>View All Projects</Button>
       </div>
