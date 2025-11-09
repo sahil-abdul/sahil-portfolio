@@ -1,4 +1,12 @@
-  const PenCraft = {
+const SayMore = {
+    image: "/saymore.png",
+    title: "Anonymous Feedback Website",
+    content: " thoughts without revealing their identity. It also includes AI-powered message suggestions using the Gemini model to help users craft thoughtful feedback.",
+    code: "https://github.com/sahil-abdul/SayMore",
+    tech: ["Next.js", "Node.js"," Express.js","AI Integration: Gemini AI model"]
+
+  }
+const PenCraft = {
     image: "/pencraft.png",
     title: "PenCraft-modern blog writing app",
     content: "Pencraft is a modern blog writing app built with React and Appwrite. It supports full CRUD operations and lets users upload images to enhance their posts. With a clean UI and real-time functionality.",
@@ -37,4 +45,5 @@
     PenCraft,
     WanderMate,
     NovaPath
+
   }
