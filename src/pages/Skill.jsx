@@ -3,7 +3,7 @@ import WebhookIcon from '@mui/icons-material/Webhook';
 import PsychologyIcon from '@mui/icons-material/Psychology';
 
 function Skill() {
-  const fullStack = ["React.js","Node.js","Mongodb","Express.js","Tailwind CSS","Bootstrap","JavaScript"]
+  const fullStack = ["Next.js","React.js","Node.js","Mongodb","Express.js","Tailwind CSS","Bootstrap","JavaScript"]
   const program = ["Java","C++","C","Sql","Mongodb","JavaScript"]
   return (
     <>
@@ -24,6 +24,7 @@ function Skill() {
   );
 }
 export default Skill;
+
 
 
 
