@@ -1,6 +1,6 @@
 import Icon from "./Icon";
 import Project from "./Project";
-import { NovaPath, WanderMate, PenCraft, Todo } from "./ProjectInfo";
+import { NovaPath, WanderMate, PenCraft, Todo ,SayMore,MusicSchool} from "./ProjectInfo";
 import CloseIcon from '@mui/icons-material/Close';
 
 function AllProject({fun}) {
@@ -20,9 +20,11 @@ function AllProject({fun}) {
         </div>
 
         <div className="flex w-full justify-center ml-1.5 md:justify-around gap-10 flex-wrap overflow-y-auto scrollbar-hide">
+         <Project data={SayMore} />
           <Project data={NovaPath} />
           <Project data={WanderMate} />
           <Project data={PenCraft} />
+          <Project data={MusicSchool} />
           <Project data={Todo} />
        
         </div>
@@ -31,3 +33,4 @@ function AllProject({fun}) {
   );
 }
 export default AllProject;
+
