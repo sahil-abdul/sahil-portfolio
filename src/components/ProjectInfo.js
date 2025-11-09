@@ -1,4 +1,12 @@
-const SayMore = {
+  const MusicSchool = {
+    image: "/musicschool.png",
+    title: "Harmony Music Academy Website",
+    content: "A modern Music School Website built with Next.js, using Aceternity UI for sleek components and styled with Tailwind CSS. Inspired and guided by Chai aur Code’s playlist. Responsive, fast, and beginner-friendly UI project to sharpen frontend skills.",
+    code: "https://github.com/sahil-abdul/Music_school",
+    tech: ["Next.js", "Node.js", "Express.js", "Aceternity UI"]
+}
+  
+  const SayMore = {
     image: "/saymore.png",
     title: "Anonymous Feedback Website",
     content: " thoughts without revealing their identity. It also includes AI-powered message suggestions using the Gemini model to help users craft thoughtful feedback.",
@@ -6,7 +14,7 @@ const SayMore = {
     tech: ["Next.js", "Node.js"," Express.js","AI Integration: Gemini AI model"]
 
   }
-const PenCraft = {
+  const PenCraft = {
     image: "/pencraft.png",
     title: "PenCraft-modern blog writing app",
     content: "Pencraft is a modern blog writing app built with React and Appwrite. It supports full CRUD operations and lets users upload images to enhance their posts. With a clean UI and real-time functionality.",
@@ -44,6 +52,7 @@ const PenCraft = {
     Todo,
     PenCraft,
     WanderMate,
-    NovaPath
-
+    NovaPath,
+    SayMore,
+    MusicSchool
   }
