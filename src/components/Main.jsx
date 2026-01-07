@@ -66,7 +66,7 @@ function Main() {
           </div>
         </div>
 
-        <div className="w-full md:w-1/2 flex justify-center items-center h-screen" data-aos="fade-left"
+        <div className="w-full hidden md:block md:w-1/2  justify-center items-center h-screen" data-aos="fade-left"
      data-aos-anchor="#example-anchor"
      data-aos-offset="300"
       data-aos-easing="ease-in-sine"
@@ -82,3 +82,4 @@ function Main() {
 }
 
 export default Main;
+
